@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+	<!-- Those metadata will be displayed in the template configuration page. They are not used for now. -->
+	<metadata>
+		<name>Interest-Points</name>
+		<type>question_theme</type>
+		<title>Interest Points</title>
+		<creationDate>17/08/2021</creationDate>
+		<lastUpdate>17/08/2021</lastUpdate>
+		<author>Tony Partner</author>
+		<authorUrl>http://partnersurveys.com</authorUrl>
+		<supportUrl>None</supportUrl>
+		<license>GNU General Public License version 2 or later</license>
+		<version>1.0</version>
+		<apiVersion>1</apiVersion>
+		<lastSecurityUpdate>1.0</lastSecurityUpdate>
+		<description>Drag "Positive" or "Negative" points onto an image and record related comments.</description>				
+		<questionType>Q</questionType>
+		<group>Text questions</group>
+        <subquestions>1</subquestions>
+		<answerscales>0</answerscales>
+		<hasdefaultvalues>1</hasdefaultvalues>
+		<assessable>1</assessable>
+		<class>multiple-short-txt</class>	
+	</metadata>
+
+	<compatibility>
+		<version>5.0</version>
+	</compatibility>
+
+	<!--
+		Here the list of the css/js files to load.
+		Any file here will be loaded via the asset manager (when in config.php debug = 0)
+	-->
+	<files>
+		<css>
+			<filename>css/interestPoints.css</filename>
+		</css>
+		<js>
+			<filename>scripts/interestPoints.js</filename>
+		</js>
+		<preview>
+			<filename>/images/interest_points_1.png</filename>
+		</preview>
+	</files>
+
+	<attributes>
+		<!-- New attributes -->
+		<attribute>
+			<name>image_path</name>
+			<category>Custom options</category>
+			<sortorder>0</sortorder>
+			<inputtype>text</inputtype>
+			<help>An absolute path to the image</help>
+			<caption>Image path</caption>
+		</attribute>
+		
+		<!-- Hide some core attributes -->
+		<attribute>
+			<name>prefix</name>
+			<category>Display</category>
+			<inputtype/>
+		</attribute>
+		<attribute>
+			<name>suffix</name>
+			<category>Display</category>
+			<inputtype/>
+		</attribute>
+		<attribute>
+			<name>text_input_columns</name>
+			<category>Display</category>
+			<inputtype/>
+		</attribute>
+		<attribute>
+			<name>label_input_columns</name>
+			<category>Display</category>
+			<inputtype/>
+		</attribute>
+		<attribute>
+			<name>display_rows</name>
+			<category>Display</category>
+			<inputtype/>
+		</attribute>
+		<attribute>
+			<name>input_size</name>
+			<category>Display</category>
+			<inputtype/>
+		</attribute>
+		<attribute>
+			<name>maximum_chars</name>
+			<category>Input</category>
+			<inputtype/>
+		</attribute>
+		<attribute>
+			<name>array_filter_style</name>
+			<category>Logic</category>
+			<inputtype/>
+		</attribute>
+		<attribute>
+			<name>exclude_all_others</name>
+			<category>Logic</category>
+			<inputtype/>
+		</attribute>
+	</attributes>
+
+	<!-- Here datas about how LimeSurvey should load the core js/css of the question -->
+	<engine>
+		<load_core_css>true</load_core_css>
+		<load_core_js>true</load_core_js>
+		<show_as_template>true</show_as_template>
+		<show_as_question_type>true</show_as_question_type>
+
+		<!-- Here, you can publish packages set as third party extensions in application/config/third_party or  application/config/package -->
+		<!-- If bootstrap is registered as a css framework, it will be loaded first -->
+		<packages>
+		</packages>
+	</engine>
+</config>
