@@ -7,7 +7,7 @@ Compatible with LimeSurvey version 5.x.
 
 **Implementation:**
 
-1) - Extract the download, compress (zip) the *Interest-Points* folder and import via the theme manager.
+1) Extract the download, compress (zip) the *Interest-Points* folder and import via the theme manager.
 
 2) Create a multiple-short-text question, click Save.
 
