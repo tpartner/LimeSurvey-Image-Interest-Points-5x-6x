@@ -6,8 +6,8 @@
 		<name>Interest-Points</name>
 		<type>question_theme</type>
 		<title>Interest Points</title>
-		<creationDate>17/08/2021</creationDate>
-		<lastUpdate>17/08/2021</lastUpdate>
+		<creationDate>2021-08-17 08:00</creationDate>
+		<lastUpdate>2023-01-20</lastUpdate>
 		<author>Tony Partner</author>
 		<authorUrl>http://partnersurveys.com</authorUrl>
 		<supportUrl>None</supportUrl>
@@ -27,6 +27,7 @@
 
 	<compatibility>
 		<version>5.0</version>
+		<version>6.0</version>
 	</compatibility>
 
 	<!--
